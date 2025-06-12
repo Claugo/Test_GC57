@@ -1,4 +1,4 @@
-# GC57 — Materiale sperimentale di supporto al saggio
+# GC57 — Materiale sperimentale di supporto
 
 Questo repository contiene i programmi di supporto sperimentale al saggio sul metodo **GC57** sviluppato da Claudio Govi
 
