@@ -16,16 +16,15 @@ rip=1
 # **** imposta due numeri a caso: possono esssere numeri primi, pari, dispari, digitati a mano, ecc.
 #      Mantenere i numeri distanti tra loro in cifre se non si impongono degli esponenti. In ogni caso
 #      qs deve essere superiore in cifre rispetto a ps. Modificare e aumentare il valore dei numeri
-#      nel caso il campo risultasse piccolo. Di solito per questo tipo di chiave è meglio usare sempri degli
-#      esponenti maggiori di 1 e distanziati tra loro almeno di 2
-ps = 54633299
-qs = 29874862
+#      nel caso il campo risultasse piccolo
+ps = 546332996785237687623412
+qs = 2987486298763287623867672576352376569
 # *------------------------------------------------------------------------------------------------
 # **** imposto gli esponenti. Se gli esponenti vengono posti a 1, il programma utilizzarà i numeri
 # **** inseriti sopra così come sono. Se gli esponenti sono superiori a 1, il programma utilizzerà i numeri elevati alla potenza inserita
 # **** Gli esponenti servono solo ad aumentare i numeri testati per evitare di scrivere un numero molto grande per intero
-p=ps**10
-q=qs**16
+p=ps**1
+q=qs**1
 # *------------------------------------------------------------------------------------------------
 # **** Calcolo la chiave e l'intervallo
 print("---------------------------------------------------------------------")
@@ -45,7 +44,7 @@ v1, v2 = 0, 1
 #      Nota importante: Se i due contenitori v1 e v2 non risultano uguali, l'operazione di fattorizzazione cercherà di
 #      portarla a buon fine cercando negli altri contenitori. Questa incongruenza sui contenitori si presenta spesso sui
 #      numeri piccoli. Aumentate gli esponenti anche in modo consistente per testare i contenitori su numeri grandi
-#      L'esempio di default così come impostato mantiene i contenitori simili
+#      L'esempio di default così come impostato mantiene i contenitori allineati
 for i in range(rip):
     trovato = False
     p_campo = randint(campo*v1, campo*v2)
