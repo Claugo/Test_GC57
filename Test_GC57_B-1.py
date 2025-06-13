@@ -44,8 +44,8 @@ v1, v2 = 0, 1
 # **** identifico i numeri primi partendo dal contenitore zero
 #      Nota importante: Se i due contenitori v1 e v2 non risultano uguali, l'operazione di fattorizzazione cercherà di
 #      portarla a buon fine cercando negli altri contenitori. Questa incongruenza sui contenitori si presenta spesso sui
-#      numeri piccoli. Aumentate gli esponenti anche in modo consistente per testare i contenitori su nuumeri grandi
-#      L'esempio di default così come impostato mantiene i contenitori congruenti
+#      numeri piccoli. Aumentate gli esponenti anche in modo consistente per testare i contenitori su numeri grandi
+#      L'esempio di default così come impostato mantiene i contenitori simili
 for i in range(rip):
     trovato = False
     p_campo = randint(campo*v1, campo*v2)
