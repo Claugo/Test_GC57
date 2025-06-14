@@ -16,6 +16,7 @@ Questi strumenti hanno esclusivamente finalità sperimentali e di verifica teori
 ## Contenuto del repository
 - `Test_GC57_B-1.py` — Programma sperimentale per testare la chiave B-1.
 - `Test_GC57_log.py` — Programma sperimentale per testare la chiave logaritmica.
+- 'Test_interfaccia_B-1.py -- Aggiunto questo programma per eseguire il test con la chiave B-1 con una interfaccia grafica
 - `README.md` — Questo documento.
 
 ---
