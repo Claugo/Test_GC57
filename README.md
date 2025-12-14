@@ -1,32 +1,31 @@
 # GC57 — Materiale sperimentale di supporto
 
-Questo repository contiene i programmi di supporto sperimentale al saggio sul metodo **GC57** sviluppato da Claudio Govi
+# Test GC57
 
-GC57 propone un approccio logico-sperimentale alla fattorizzazione istantanea di semiprimi e alla derivazione di chiavi crittografiche, basato su proprietà numeriche non convenzionali.
+This repository collects the test programs used to support and validate
+the GC57 factorization approach, as documented in the corresponding
+Zenodo publications.
 
-## Finalità del materiale
+The purpose of this repository is strictly experimental and demonstrative.
+It provides reproducible test code aligned with the published documents.
 
-I due programmi inclusi permettono di riprodurre gli esperimenti descritti nel saggio, eseguendo la fattorizzazione di semiprimi generati artificialmente tramite due diverse tipologie di chiave:
+## Repository structure
 
-- **Chiave B-1**
-- **Chiave logaritmica**
+- `tests/`  
+  Contains the main test programs used to validate the GC57 approach.
 
-Questi strumenti hanno esclusivamente finalità sperimentali e di verifica teorica.
+- `zenodo/`  
+  Contains one folder per Zenodo publication.  
+  Each folder includes the exact code used to support that specific document.
 
-## Contenuto del repository
-- `Test_GC57_B-1.py` — Programma sperimentale per testare la chiave B-1.
-- `Test_GC57_log.py` — Programma sperimentale per testare la chiave logaritmica.
-- 'Test_interfaccia_B-1.py -- Aggiunto questo programma per eseguire il test con la chiave B-1 con una interfaccia grafica
-- `README.md` — Questo documento.
+- `screenshots/`  
+  Screenshots referenced in the documentation and README files.
 
----
+- `archive/`  
+  Historical and preliminary code, kept for reference only.  
+  This code is not used in the official tests.
 
-## Requisiti per l’esecuzione
+## Notes
 
-- Python 3.10 o superiore
-- Libreria `gmpy2`
-
-Installazione dipendenze:
-
-```bash
-pip install gmpy2
+Only the code contained in `tests/` and `zenodo/` should be considered
+relevant for reproducing the results described in the Zenodo publications.
