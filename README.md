@@ -1,4 +1,4 @@
-# GC57 — Materiale sperimentale di supporto
+# GC57 — Experimental Support Material
 
 # Test GC57
 
